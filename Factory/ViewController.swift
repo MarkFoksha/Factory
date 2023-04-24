@@ -9,11 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var arrayOfExercises = [Exercise]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        createExercise(name: .running)
+        createExercise(name: .pullUps)
+        createExercise(name: .cycling)
+        
+        for ex in arrayOfExercises {
+            ex.start()
+            ex.stop()
+        }
     }
 
+    func createExercise(name: Exercises) {
+        let exercise = Factory.shared.createExercise(name: name)
+        arrayOfExercises.append(exercise)
+    }
 
+    
 }
 

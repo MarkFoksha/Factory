@@ -13,6 +13,11 @@
 		13996C3F29F695510063B73C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13996C3D29F695510063B73C /* Main.storyboard */; };
 		13996C4129F695560063B73C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13996C4029F695560063B73C /* Assets.xcassets */; };
 		13996C4429F695560063B73C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13996C4229F695560063B73C /* LaunchScreen.storyboard */; };
+		13996C5629F69B0F0063B73C /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13996C5529F69B0F0063B73C /* Exercise.swift */; };
+		13996C5829F69B760063B73C /* PullUps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13996C5729F69B760063B73C /* PullUps.swift */; };
+		13996C5A29F69BEB0063B73C /* Running.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13996C5929F69BEB0063B73C /* Running.swift */; };
+		13996C5D29F69C880063B73C /* FactoryExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13996C5C29F69C870063B73C /* FactoryExercises.swift */; };
+		13996C6029F69E420063B73C /* Cycling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13996C5F29F69E420063B73C /* Cycling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		13996C4029F695560063B73C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13996C4329F695560063B73C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13996C4529F695560063B73C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13996C5529F69B0F0063B73C /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		13996C5729F69B760063B73C /* PullUps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullUps.swift; sourceTree = "<group>"; };
+		13996C5929F69BEB0063B73C /* Running.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Running.swift; sourceTree = "<group>"; };
+		13996C5C29F69C870063B73C /* FactoryExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryExercises.swift; sourceTree = "<group>"; };
+		13996C5F29F69E420063B73C /* Cycling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cycling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +69,31 @@
 				13996C3729F695510063B73C /* AppDelegate.swift */,
 				13996C3929F695510063B73C /* SceneDelegate.swift */,
 				13996C3B29F695510063B73C /* ViewController.swift */,
+				13996C5E29F69D1C0063B73C /* Factory */,
+				13996C5B29F69C4A0063B73C /* New Group */,
 				13996C3D29F695510063B73C /* Main.storyboard */,
 				13996C4029F695560063B73C /* Assets.xcassets */,
 				13996C4229F695560063B73C /* LaunchScreen.storyboard */,
 				13996C4529F695560063B73C /* Info.plist */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		13996C5B29F69C4A0063B73C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				13996C5529F69B0F0063B73C /* Exercise.swift */,
+				13996C5729F69B760063B73C /* PullUps.swift */,
+				13996C5929F69BEB0063B73C /* Running.swift */,
+				13996C5F29F69E420063B73C /* Cycling.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		13996C5E29F69D1C0063B73C /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				13996C5C29F69C870063B73C /* FactoryExercises.swift */,
 			);
 			path = Factory;
 			sourceTree = "<group>";
@@ -139,7 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				13996C3C29F695510063B73C /* ViewController.swift in Sources */,
+				13996C6029F69E420063B73C /* Cycling.swift in Sources */,
+				13996C5A29F69BEB0063B73C /* Running.swift in Sources */,
+				13996C5629F69B0F0063B73C /* Exercise.swift in Sources */,
 				13996C3829F695510063B73C /* AppDelegate.swift in Sources */,
+				13996C5D29F69C880063B73C /* FactoryExercises.swift in Sources */,
+				13996C5829F69B760063B73C /* PullUps.swift in Sources */,
 				13996C3A29F695510063B73C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
